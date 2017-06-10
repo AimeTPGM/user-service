@@ -10,7 +10,7 @@ import bcrypt
 
 app = Flask(__name__)
 app.config["MONGO_DBNAME"] = "usertest"
-app.config['MONGO_HOST'] = '210.121.158.165'
+app.config['MONGO_HOST'] = '210.121.158.168'
 app.config['MONGO_PORT'] = 27018
 mongo = PyMongo(app, config_prefix='MONGO')
 # APP_URL = "http://127.0.0.1:1024"
